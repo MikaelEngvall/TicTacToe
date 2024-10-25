@@ -47,4 +47,5 @@ To run this project locally, follow these steps:
    open index.html
    ```
    Or, just drag the <code>index.html</code> file into your browser window.
+   
 No additional dependencies are required, as this project is fully static (HTML, CSS, JS).
