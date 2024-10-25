@@ -1,51 +1,71 @@
-/* Center the content on the page */
+/* Light mode (default) */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding-top: 50px;
-  }
-  
-  /* Game board with a little spacing and border tweaks for modern look */
-  #board {
+    background-color: #ffffff;
+    color: #212529; /* Bootstrap's default text color */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa; /* Light text color */
+}
+
+/* Board styles for light and dark mode */
+#board {
     display: grid;
-    grid-template-columns: repeat(3, 120px); /* Bigger cells */
+    grid-template-columns: repeat(3, 120px);
     grid-gap: 10px;
     justify-content: center;
     margin-top: 20px;
-  }
-  
-  /* Style for the individual cells */
-  .cell {
+}
+
+.cell {
     width: 120px;
     height: 120px;
-    background-color: #f8f9fa; /* Bootstrap's light color */
-    font-size: 3em; /* Larger font for marks */
+    background-color: #f8f9fa;
+    font-size: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #ced4da; /* Bootstrap's gray border */
-    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ced4da;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  /* Hover effect for cells */
-  .cell:hover {
+}
+
+body.dark-mode .cell {
+    background-color: #343a40; /* Darker cell background in dark mode */
+    border-color: #495057; /* Darker border in dark mode */
+}
+
+.cell:hover {
     background-color: #e9ecef;
-  }
-  
-  /* Game status text */
-  #status {
+}
+
+body.dark-mode .cell:hover {
+    background-color: #495057;
+}
+
+#status {
     margin-top: 20px;
     font-size: 1.8em;
     font-weight: 500;
-  }
-  
-  /* Button styling using Bootstrap overrides */
-  #resetBtn {
+}
+
+#resetBtn {
     margin-top: 30px;
     padding: 10px 30px;
     font-size: 1.2em;
     border-radius: 5px;
-  }
-  
+}
+
+/* Toggle Button */
+#modeToggleBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}

@@ -1,3 +1,30 @@
+
+// Select the mode toggle button
+const modeToggleBtn = document.getElementById('modeToggleBtn');
+
+// Function to toggle between light and dark modes
+function toggleMode() {
+    // Toggle the 'dark-mode' class on the body
+    document.body.classList.toggle('dark-mode');
+    
+    // Save the current mode in localStorage
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode ? 'enabled' : 'disabled');
+    
+    // Update the button text
+    modeToggleBtn.textContent = isDarkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode';
+}
+
+// Check for saved mode preference on page load
+window.onload = () => {
+    const savedMode = localStorage.getItem('darkMode');
+    
+    // If dark mode was enabled previously, apply it
+    if (savedMode === 'enabled') {
+        document.body.classList.add('dark-mode');
+        modeToggleBtn.textContent = 'Toggle Light Mode';
+    }
+};
 // Get the HTML elements representing the game board and status display
 const boardElement = document.getElementById('board');
 const statusElement = document.getElementById('status');
