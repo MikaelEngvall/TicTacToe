@@ -13,7 +13,7 @@ A modern, responsive Tic-Tac-Toe game built with **JavaScript**, **HTML**, and *
 - [License](#license)
 
 ## Demo
-Check out a live demo of the game here: [Tic-Tac-Toe Live Demo](#)
+Check out a live demo of the game here: [Tic-Tac-Toe Live Demo](https://mikaelengvall.github.io/TicTacToe/)
 
 (Supply a live demo link here if hosted, e.g., on GitHub Pages)
 
