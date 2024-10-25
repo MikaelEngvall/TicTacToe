@@ -1,0 +1,51 @@
+/* Center the content on the page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  /* Game board with a little spacing and border tweaks for modern look */
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 120px); /* Bigger cells */
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the individual cells */
+  .cell {
+    width: 120px;
+    height: 120px;
+    background-color: #f8f9fa; /* Bootstrap's light color */
+    font-size: 3em; /* Larger font for marks */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ced4da; /* Bootstrap's gray border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for cells */
+  .cell:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Game status text */
+  #status {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+  
+  /* Button styling using Bootstrap overrides */
+  #resetBtn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
