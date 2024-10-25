@@ -46,4 +46,4 @@ To run this project locally, follow these steps:
    ```bash
    open index.html
    ```
-   Or, just drag the index.html file into your browser window.
+   Or, just drag the <code>index.html</code> file into your browser window.
