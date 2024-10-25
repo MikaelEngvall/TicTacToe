@@ -59,7 +59,7 @@ No additional dependencies are required, as this project is fully static (HTML, 
 6. Press the **Reset Game** button to start a new round.
 7. Use the **Toggle Dark Mode** button to switch between light and dark themes.
 
-8. ### Winning Patterns
+### Winning Patterns
 - Any row, column, or diagonal with the same symbol wins the game.
 
 ### Customization
