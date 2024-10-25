@@ -42,4 +42,7 @@ To run this project locally, follow these steps:
    ```bash
    cd tic-tac-toe
    ```
-
+3. **Open the index.html file in your browser**:
+   ```bash
+   open index.html
+   ```
