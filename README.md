@@ -49,3 +49,13 @@ To run this project locally, follow these steps:
    Or, just drag the <code>index.html</code> file into your browser window.
    
 No additional dependencies are required, as this project is fully static (HTML, CSS, JS).
+
+## How to Play
+1. Click on any of the empty cells to mark it with your symbol (`X` or `O`).
+2. Alternate between players until someone wins or the board is full.
+3. The current player's turn is displayed at the top of the board.
+4. If a player wins, the game will announce the winner and disable further moves.
+5. If the board is full without a winner, the game will declare a draw.
+6. Press the **Reset Game** button to start a new round.
+7. Use the **Toggle Dark Mode** button to switch between light and dark themes.
+
