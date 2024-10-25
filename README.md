@@ -59,3 +59,23 @@ No additional dependencies are required, as this project is fully static (HTML, 
 6. Press the **Reset Game** button to start a new round.
 7. Use the **Toggle Dark Mode** button to switch between light and dark themes.
 
+8. ### Winning Patterns
+- Any row, column, or diagonal with the same symbol wins the game.
+
+### Customization
+- **Dark/Light Mode**: You can toggle between modes using the "Toggle Dark Mode" button. The preference is stored in `localStorage` and persists even after you close the browser.
+- **Styling**: You can customize the appearance further by modifying the `style.css` file.
+- **Game Board Size**: Currently, the board is 3x3, but you can expand or modify the grid size by updating the `createBoard()` function in `main.js`.
+
+### Contributing
+Contributions are welcome! If you'd like to contribute:
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
+
+### License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
