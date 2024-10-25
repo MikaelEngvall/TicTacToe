@@ -65,7 +65,7 @@ No additional dependencies are required, as this project is fully static (HTML, 
 ### Customization
 - **Dark/Light Mode**: You can toggle between modes using the "Toggle Dark Mode" button. The preference is stored in `localStorage` and persists even after you close the browser.
 - **Styling**: You can customize the appearance further by modifying the `style.css` file.
-- **Game Board Size**: Currently, the board is 3x3, but you can expand or modify the grid size by updating the `createBoard()` function in `main.js`.
+- **Game Board Size**: Currently, the board is 3x3, but you can expand or modify the grid size by updating the `createBoard()` function in `script.js`.
 
 ### Contributing
 Contributions are welcome! If you'd like to contribute:
