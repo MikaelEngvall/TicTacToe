@@ -15,8 +15,6 @@ A modern, responsive Tic-Tac-Toe game built with **JavaScript**, **HTML**, and *
 ## Demo
 Check out a live demo of the game here: [Tic-Tac-Toe Live Demo](https://mikaelengvall.github.io/TicTacToe/)
 
-(Supply a live demo link here if hosted, e.g., on GitHub Pages)
-
 ## Features
 - **Responsive design**: Built with Bootstrap, the game scales well across devices.
 - **Dark/Light Mode Toggle**: Switch between dark and light modes for a personalized experience.
@@ -36,7 +34,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/tic-tac-toe.git
+   git clone https://github.com/MikaelEngvall/tic-tac-toe.git
    ```
 2. **Navigate to the project directory**:
    ```bash
